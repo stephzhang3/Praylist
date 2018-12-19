@@ -9,6 +9,6 @@
 import Foundation
 
 class Prayer {
-    var title: string = ""
-    var description:string = ""
+    var title: String = ""
+    var description: String = ""
 }
