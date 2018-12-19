@@ -12,6 +12,8 @@ class NewPrayerViewController: UIViewController {
     
     var newPrayer: Prayer = Prayer()
  
+    @IBOutlet weak var detailButton: UIBarButtonItem!
+    @IBOutlet weak var favoriteButton: UIBarButtonItem!
     @IBOutlet weak var titleField: UITextField!
     @IBOutlet weak var descriptionField: UITextView!
     

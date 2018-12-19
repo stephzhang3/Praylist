@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		A577A98D21CA1F5800206CCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A577A98C21CA1F5800206CCB /* AppDelegate.swift */; };
 		A577A98F21CA1F5800206CCB /* NewPrayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A577A98E21CA1F5800206CCB /* NewPrayerViewController.swift */; };
-		A577A99121CA1F5800206CCB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A577A99021CA1F5800206CCB /* SecondViewController.swift */; };
+		A577A99121CA1F5800206CCB /* PrayerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A577A99021CA1F5800206CCB /* PrayerListViewController.swift */; };
 		A577A99421CA1F5800206CCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A577A99221CA1F5800206CCB /* Main.storyboard */; };
 		A577A99621CA1F5A00206CCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A577A99521CA1F5A00206CCB /* Assets.xcassets */; };
 		A577A99921CA1F5A00206CCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A577A99721CA1F5A00206CCB /* LaunchScreen.storyboard */; };
@@ -20,7 +20,7 @@
 		A577A98921CA1F5800206CCB /* Praylist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Praylist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A577A98C21CA1F5800206CCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A577A98E21CA1F5800206CCB /* NewPrayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPrayerViewController.swift; sourceTree = "<group>"; };
-		A577A99021CA1F5800206CCB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A577A99021CA1F5800206CCB /* PrayerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerListViewController.swift; sourceTree = "<group>"; };
 		A577A99321CA1F5800206CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A577A99521CA1F5A00206CCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A577A99821CA1F5A00206CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 				A577A9A021CA1FF900206CCB /* Model */,
 				A577A98C21CA1F5800206CCB /* AppDelegate.swift */,
 				A577A98E21CA1F5800206CCB /* NewPrayerViewController.swift */,
-				A577A99021CA1F5800206CCB /* SecondViewController.swift */,
+				A577A99021CA1F5800206CCB /* PrayerListViewController.swift */,
 				A577A99221CA1F5800206CCB /* Main.storyboard */,
 				A577A99521CA1F5A00206CCB /* Assets.xcassets */,
 				A577A99721CA1F5A00206CCB /* LaunchScreen.storyboard */,
@@ -149,7 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A577A99121CA1F5800206CCB /* SecondViewController.swift in Sources */,
+				A577A99121CA1F5800206CCB /* PrayerListViewController.swift in Sources */,
 				A577A98D21CA1F5800206CCB /* AppDelegate.swift in Sources */,
 				A577A9A221CA200500206CCB /* Prayer.swift in Sources */,
 				A577A98F21CA1F5800206CCB /* NewPrayerViewController.swift in Sources */,
