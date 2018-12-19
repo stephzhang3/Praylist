@@ -8,8 +8,14 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
-
+class NewPrayerViewController: UIViewController {
+    
+    var newPrayer: Prayer = Prayer()
+ 
+    @IBOutlet weak var titleField: UITextField!
+    @IBOutlet weak var descriptionField: UITextView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
